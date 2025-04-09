@@ -1,1 +1,2 @@
 # PianoRollCustomGUI
+Some tests to sync a custom GUI with a pianoRoll WAM. Tests for a new WAM extension to come for allowing creation of customGUIs for existing WAMs (i.e a 3D GUI for babylonJS scenes)
