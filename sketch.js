@@ -31,7 +31,7 @@ async function setup() {
 
   // Create the pianoRoll custom GUI
   // parameters: number of rows, number of bars, time signature numerator, time signature denominator
-  pianoRollCustomGUI = new PianoRollCustomGUI(12, 2, 4, 4);
+  pianoRollCustomGUI = new PianoRollCustomGUI(12, 2, 4, 4, currentBpm);
 
   const startButton = document.querySelector("#btn-start");
   startButton.onclick = () => {
