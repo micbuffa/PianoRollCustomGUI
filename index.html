@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Test PianoRollWAM with External GUI</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="libraries/p5.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+</head>
+
+<body>
+  <!-- Pas besoin de déclarer un canvas pour dessiner en P5.js -->
+  <main>
+    <button id="btn-start">Start</button>
+    <br>
+    Tempo : <input type="number" id="bpm" value="60" min="1" max="300" id="bpm" />
+  </main>
+  <script src="pianoRollCustomGUI.js"></script>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
